@@ -1,5 +1,5 @@
-primary_name: "Jasper"
-secondary_name: "Zongrong Li"
+primary_name: "Shining"
+secondary_name: "Xiying Li"
 navbar_name: "Homepage"
 
 positions:
@@ -8,131 +8,140 @@ positions:
 # - name: Position 2 without logo
 
 
-email: "zongrong@tamu.edu"
-cv_link: /assets/CV/cv.pdf  #IDK
-gscholar: XbCCGC4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: Jasper0122
-twitter: Jasperli0122  # Do not include the '@' symbol
+email: "lxy3051084907@163.com"
+#cv_link: /assets/CV/cv.pdf  #IDK
+#gscholar: XbCCGC4AAAAJ  # This is an example, replace it with your own Google Scholar ID
+github: Shining-Leeee
+#twitter: Jasperli0122  # Do not include the '@' symbol
 wechat_qrcode: /assets/images/etc/wechat.jpg
 wechat_prompt: >- 
   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past), and your <strong>reason</strong> for adding me on WeChat. Thanks!
-linkedin: zongrong-jasper-li-61457b287
-orcid: 0009-0008-0933-6439
-xiaohongshu: https://www.xiaohongshu.com/user/profile/638b75f2000000001f01aed6
+#linkedin: zongrong-jasper-li-61457b287
+#orcid: 0009-0008-0933-6439
+#xiaohongshu: https://www.xiaohongshu.com/user/profile/638b75f2000000001f01aed6
 
 
 short_bio_text_justify: true
 short_bio: >-
   <p>
-    I'm an interdisciplinary researcher interested in applying GeoAI methods to advance urban science, 
-    understand human-environment interactions in 3D urban space, and leverage 3D Mesh Model, street view and remote sensing for urban perception and analysis.
+  I am a master's student in psychology, currently focusing my thesis on the regulatory effects of alpha entrainment neural oscillations on executive control.
+  My thesis project comprises two main studies across three experiments, and I am currently in the data collection phase for Experiment 3.
+    
     <img src="assets/images/photos/interst.png" alt="Research Interests" 
          style="float: left; width: 350px; margin-right: 10px; border-radius: 8px;">
   </p>
 
   <p>
-    I am currently a <strong>Ph.D. student</strong> in Geographic Information Systems at 
-    <a href="https://www.tamu.edu/" target="_blank">Texas A&M University</a>, 
-    advised by Prof. <a href="https://scholar.google.com/citations?user=VRndhQEAAAAJ&hl=en" target="_blank">Lei Zou</a> in the 
-    <a href="https://www.geoearlab.com/" target="_blank">TAMU GEAR Lab</a>. 
-    I previously earned my Master of Science in Spatial Data Science at the 
-    <a href="https://www.usc.edu/" target="_blank">University of Southern California</a>, 
-    advised by Prof. <a href="https://scholar.google.com.au/citations?user=0Hm7fD0AAAAJ&hl=en" target="_blank">Siqin Wang</a> 
-    and Prof. <a href="https://scholar.google.com/citations?user=fYZTZWgAAAAJ&hl=en" target="_blank">Yi Qi</a>. 
-    I hold a Bachelor of Economics in Finance from 
-    <a href="https://lxsy.nau.edu.cn/NanjingAuditUniversity/list.htm" target="_blank">Nanjing Audit University</a>.
+    I am currently a <strong>M.S. student</strong> in Institute of Brain and psychological Sciences, Sichuan Normal University,
+    <a href="https://ibps.sicnu.edu.cn/" target="_blank">Texas A&M University</a>, 
+    advised by Prof. <a href="https://ibps.sicnu.edu.cn/p/16/?StId=st_app_news_i_x638514610151893184" target="_blank">Yifeng Wang</a>,
+    with an expected graduation date of 2027.
+    
+    I previously earned my Bachelor of Science degree in psychology from the School of Education at Hunan First Normal University,
+    <a href="https://jyxy.hnfnu.edu.cn/" target="_blank">University of Southern California</a>, 
+    advised by Prof. <a href="https://jyxy.hnfnu.edu.cn/info/1184/10934.htm" target="_blank">Yuesheng Huang</a> 
+   
   </p>
 
   <p>
-    Previously, I was also a Research Assistant at 
-    <a href="https://www.hkust-gz.edu.cn/" target="_blank">HKUST(GZ)</a>, 
-    working in the AI4City Lab with Prof. <a href="https://wufan-zhao.github.io/" target="_blank">Wufan Zhao</a>. 
-    Before that, I worked as a Data Science Intern at 
-    <a href="https://sites.google.com/view/hdscalecollab/" target="_blank">City of Hope</a> under the supervision of 
-    Dr. <a href="https://www.linkedin.com/in/jiue-an-jay-y-a1ab6737/" target="_blank">Jay Yang</a> 
-    and as a Research Assistant at 
-    <a href="https://www.polyu.edu.hk/en/" target="_blank">The Hong Kong Polytechnic University</a>, advised by 
-    Prof. <a href="https://zhiweili.net/" target="_blank">Zhiwei Li</a>.
+   Throughout my journey in psychology, I have grown both professionally and personally. On the technical side, I am capable of independently conducting 
+   and analyzing behavioral and EEG experiments. My primary programming language is MATLAB, which I utilize alongside EEGLAB and ERPLAB for EEG preprocessing 
+   and frequency-domain analysis. I also integrate MATLAB with Cartool to extract EEG microstates. Furthermore, I am proficient in operating transcranial 
+   electrical stimulation (tES) devices, such as tACS, and performing electric field modeling using SimNIBS prior to stimulation. 
+   My software toolkit also includes E-Prime for experimental design, SPSS for statistical analysis, and R for data visualization.
+
+   On a personal level, my passion for psychology continues to grow—I view it as a discipline that fosters lifelong curiosity and provides deep mental healing. 
+   Learning psychology has equipped me with valuable emotional regulation strategies, empowering me to navigate challenges in both my academic work and daily 
+   life with resilience.
   </p>
 
-  <p>
-    I also share my journey as a study-abroad influencer on <a href="https://www.xiaohongshu.com/user/profile/638b75f2000000001f01aed6" target="_blank">RedNote (Xiaohongshu)</a> with 30k followers, and I'm the founder of <a href="https://autoapplyclaw.com" target="_blank"><strong>AutoApplyClaw</strong></a> — an AI-powered job application platform that searches jobs, generates tailored resumes & cover letters, and auto-fills application forms via a Chrome extension.
-  </p>
+  #<p>
+    #I also share my journey as a study-abroad influencer on <a href="https://www.xiaohongshu.com/user/profile/638b75f2000000001f01aed6" target="_blank">RedNote (Xiaohongshu)</a> with 30k followers, and I'm the founder of <a href="https://autoapplyclaw.com" target="_blank"><strong>AutoApplyClaw</strong></a> — an AI-powered job application platform that searches jobs, generates tailored resumes & cover letters, and auto-fills application forms via a Chrome extension.
+  #</p>
 
-  <p>
-    <i class="fa-solid fa-rectangle-ad" style="color: #d60000;"></i>
-    <span style="color: #d60000;">I am looking for collaborators and interns</span> 
-    interested in GeoAI, Spatial Analysis, and their applications in urban science and human-environment interaction in 3D urban space. 
-    My goal is to develop novel tools, algorithms, and methodologies to empower future researchers in exploring Urban Science and 
-    understanding the dynamic relationship between humans and their environments. If you are interested in collaborating, 
-    please feel free to reach out via email or WeChat.
-  </p>
+<p>
+  <i class="fa-solid fa-graduation-cap" style="color: #d60000;"></i>
+  <span style="color: #d60000;">I am actively seeking Ph.D. opportunities.</span> 
+  Driven by my passion for psychology, I hope to continue advancing my academic journey and am currently planning to pursue a doctoral degree in the field.
+</p>
 
 
 
 portrait_url: /assets/images/photos/profile.jpg
 portrait_caption: >-
-  Serve the cat, rule the world.
+  Keep knocking on the world's door!
 
 education:
-- name: Texas A&M University
-  logo: /assets/images/badges/Texas_A&M_University_seal.svg
-  position: Ph.D. in Geographic Information Systems
-  date: Aug. 2025 - Present
-- name: University of Southern California
-  logo: /assets/images/badges/usc.png
-  position: M.S. in Spatial Data Science
-  date: Aug. 2023 - May. 2025
-- name: Nanjing Audit University
-  logo: /assets/images/badges/NAU.png
-  position: B.A. in Economics, Finance
-  date: Sep. 2018 - Jul. 2022
+- name:Hunan First Normal University
+  logo: /assets/images/badges/hunan-first-normal-university.png
+  position: Bachelor of Science
+  date: September. 2020 - June.2024
+- name: Sichuan normal university
+  logo: /assets/images/badges/sichuan normal university.png
+  position: Master of Science in Educational Psychology
+  date: September. 2024 - Present
 
-experience:
-- name: The Hong Kong University of Science and Technology (Guangzhou)
-  logo: /assets/images/badges/UST.svg.png
-  position: Research Assistant - AI4City Lab
-  date: Aug. 2024 - Aug.2025
+<h3>Practice & Professional Experience</h3>
 
-- name: Harvard University
-  logo: /assets/images/badges/Harvard.png
-  position: Research Assistant - Spatial Data Lab
-  date: May. 2024 - Sep. 2024
+<div class="experience-item" style="margin-bottom: 20px;">
+  <p style="margin-bottom: 5px;">
+    <strong>School Psychology Intern</strong> | <em>Yuelu District No.1 Primary School, Changsha</em> 
+    <span style="float: right;">Feb 2024 – Jun 2024</span>
+  </p>
+  <ul style="margin-top: 0; padding-left: 20px;">
+    <li><strong>Teaching & Research:</strong> Participated in municipal-level psychology teaching and research activities; independently designed, delivered, and evaluated mental health education courses.</li>
+    <li><strong>Supportive Counseling:</strong> Managed the school's walk-in psychological counseling room, providing empathetic listening and supportive psychological guidance to students navigating academic stress and interpersonal difficulties.</li>
+    <li><strong>Group Counseling:</strong> Designed and facilitated targeted group counseling sessions for children with learning disabilities (identified via standardized scales) to improve their school adjustment and self-esteem.</li>
+    <li><strong>Event Organization:</strong> Organized and led the school's "5-25 Mental Health Day" campaigns to promote psychological well-being awareness on campus.</li>
+  </ul>
+</div>
 
-- name: City of Hope
-  logo: /assets/images/badges/COH.png
-  position: Data Science Intern
-  date: Feb. 2024 - May. 2024
+<div class="experience-item" style="margin-bottom: 20px;">
+  <p style="margin-bottom: 5px;">
+    <strong>Online Psychological Support Specialist (Project-Based)</strong> | <em>ByteDance</em> 
+    <span style="float: right;">Aug 2022 – Nov 2022</span>
+  </p>
+  <ul style="margin-top: 0; padding-left: 20px;">
+    <li>Participated in an online psychological care initiative, operating as a human-in-the-loop AI persona to provide text-based emotional support, empathetic listening, and timely psychological guidance to users experiencing distress.</li>
+  </ul>
+</div>
 
-- name: The Hong Kong Polytechnic University
-  logo: /assets/images/badges/PolyU.svg_.png
-  position: Research Assistant
-  date: Sep. 2023 - May. 2024
+<div class="experience-item" style="margin-bottom: 20px;">
+  <p style="margin-bottom: 5px;">
+    <strong>Mental Health Education Trainee</strong> | <em>Yuelu District Experimental Primary School & Xiya Middle School, Changsha</em> 
+    <span style="float: right;">May 2021 & May 2022</span>
+  </p>
+  <ul style="margin-top: 0; padding-left: 20px;">
+    <li>Assisted school counselors in coordinating and executing "5-25 Mental Health Day" thematic activities, aiding in the promotion of mental health awareness among students.</li>
+  </ul>
+</div>
 
-- name: NetEase Youdao
-  logo: /assets/images/badges/youdaojfif.jfif
-  position: Data Analyst Intern
-  date: Jan. 2023 - Apr. 2023
+<h3>Academic Training</h3>
+
+<div class="experience-item" style="margin-bottom: 20px;">
+  <p style="margin-bottom: 5px;">
+    <strong>Summer School Participant (Online)</strong> | <em>SBI4CogSci Summer School 2026 (The Ohio State University)</em> 
+    <span style="float: right;">Jul 2026</span>
+  </p>
+  <ul style="margin-top: 0; padding-left: 20px;">
+    <li><strong>Advanced Computational Modeling:</strong> Participated in the "Simulation-Based Inference for Cognitive Science" summer school, focusing on the intersection of deep learning and cognitive modeling.</li>
+    <li><strong>Core Training:</strong> Received intensive training in computational cognitive modeling, deep learning applications in cognitive science, Bayesian analysis, and dynamic/joint modeling methodologies.</li>
+  </ul>
+</div>
 
 
 awards:
-- name: Doctoral Student Professional Development Award ($1000)
-  date: Apr. 2026
-- name: AAG International Geographic Information Fund ($1200)
-  date: Feb. 2026
-- name: AAG AGSG Annual Meeting Award ($202)
-  date: Feb. 2026
-- name: TAMU Dean's Doctoral Fellowship
-  date: Aug. 2025
-- name: 2025 AAG GISS Student Paper Competition Honorable Mention
-  date: Mar. 2025
-- name: 2025 EIP Student of the Year Award
-  date: Mar. 2025
-- name: Most Suitably Applied Analysis Methodology Award
-  date: Feb. 2025
-- name: Bronze medal in Kaggle's Child Mind Institute - Detect Sleep States
-  date: Jan. 2024
-- name: Outstanding Graduate Award
-  date: Jun. 2022
-- name: Provincial Champion of The World Mandarin Debating Championship
-  date: Sep. 2020
+  - name: Third-Class University Scholarship
+    date: 2026
+  - name: Second-Class University Scholarship
+    date: 2025
+  - name: National Encouragement Scholarship
+    date: 2023
+  - name: First-Class University Scholarship
+    date: 2023
+  - name: Second-Class University Scholarship
+    date: 2022
+  - name: Merit Student & Outstanding Student Cadre
+    date: 2022
+  - name: Merit Student
+    date: 2021
