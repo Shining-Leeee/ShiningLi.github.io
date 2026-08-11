@@ -14,8 +14,9 @@ email: "lxy3051084907@163.com"
 github: Shining-Leeee
 #twitter: Jasperli0122  # Do not include the '@' symbol
 wechat_qrcode: /assets/images/etc/wechat.jpg
-wechat_prompt: >- 
-  Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past), and your <strong>reason</strong> for adding me on WeChat. Thanks!
+wechat_prompt: >-
+  Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past).
+#linkedin: zongrong-jasper-li-61457b287
 #linkedin: zongrong-jasper-li-61457b287
 #orcid: 0009-0008-0933-6439
 #xiaohongshu: https://www.xiaohongshu.com/user/profile/638b75f2000000001f01aed6
