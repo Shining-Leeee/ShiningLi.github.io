@@ -1,26 +1,28 @@
 "Xiying Li":
   bold: true
 
-"Siqin Wang":
-  url: https://www.linkedin.com/in/siqin-sisi-wang/
+#这里的author.yml文件，是之后如果和老师合作发表了研究，这些研究的作者可以链接起来，这样点进去就是其个人主页，不需要手动更新和修改。暂时还不需要，因此先注释。
 
-"Yi Qi":
-  url: https://scholar.google.com/citations?user=fYZTZWgAAAAJ&hl=en
+# "Yifeng Wang":
+#   url: https://www.linkedin.com/in/siqin-sisi-wang/
 
-"Wufan Zhao":
-  url: https://wufan-zhao.github.io/
+# "Yi Qi":
+#   url: https://scholar.google.com/citations?user=fYZTZWgAAAAJ&hl=en
 
-"Yunlei Su":
-  url: https://suyunlei.github.io/homepage/
+# "Wufan Zhao":
+#   url: https://wufan-zhao.github.io/
 
-"Junhao Xu":
-  url: https://scholar.google.com/citations?user=PMMEUNsAAAAJ&hl=en
+# "Yunlei Su":
+#   url: https://suyunlei.github.io/homepage/
 
-"Haiyang Li":
-  url: https://scholar.google.com/citations?user=6rTZXFoAAAAJ&hl=en
+# "Junhao Xu":
+#   url: https://scholar.google.com/citations?user=PMMEUNsAAAAJ&hl=en
 
-"Yifan Yang":
-  url: https://rayford295.github.io/
+# "Haiyang Li":
+#   url: https://scholar.google.com/citations?user=6rTZXFoAAAAJ&hl=en
 
-"Filip Biljecki":
-  url: https://filipbiljecki.com/
+# "Yifan Yang":
+#   url: https://rayford295.github.io/
+
+# "Filip Biljecki":
+#   url: https://filipbiljecki.com/
