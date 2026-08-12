@@ -60,11 +60,11 @@ short_bio: >-
     #I also share my journey as a study-abroad influencer on <a href="https://www.xiaohongshu.com/user/profile/638b75f2000000001f01aed6" target="_blank">RedNote (Xiaohongshu)</a> with 30k followers, and I'm the founder of <a href="https://autoapplyclaw.com" target="_blank"><strong>AutoApplyClaw</strong></a> — an AI-powered job application platform that searches jobs, generates tailored resumes & cover letters, and auto-fills application forms via a Chrome extension.
   #</p>
 
- <p>
+  <p>
   <i class="fa-solid fa-graduation-cap" style="color: #d60000;"></i>
   <span style="color: #d60000;">I am actively seeking Ph.D. opportunities.</span> 
   Driven by my passion for psychology, I hope to continue advancing my academic journey and am currently planning to pursue a doctoral degree in the field.
- </p>
+  </p>
 
 
 
@@ -73,7 +73,7 @@ portrait_caption: >-
   Keep knocking on the world's door!
 
 education:
-- name:Hunan First Normal University
+- name: Hunan First Normal University
   logo: /assets/images/badges/hunan-first-normal-university.png
   position: Bachelor of Science
   date: September. 2020 - June.2024
