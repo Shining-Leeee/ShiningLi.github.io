@@ -44,28 +44,69 @@
                         {% endif %}
                     </div>
 
-                    <!-- 右侧：Experience -->
+                    <!-- 右侧：Research & Practice Experience -->
                     <div class="col-md-6">
-                        {% if site.data.profile.experience %}
+                        
+                        <!-- 模块 1：科研经历 -->
+                        {% if site.data.profile.research_experience %}
                         <div class="mx-2 my-1">
-                            <h6>Experience</h6>
-                            <ul class="list-unstyled mb-1">
-                                {% for item in site.data.profile.experience %}
-                                <li class="media mb-1">
+                            <h6>Research Experience</h6>
+                            <ul class="list-unstyled mb-3">
+                                {% for item in site.data.profile.research_experience %}
+                                <li class="media mb-3">
                                     <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">
                                     <div class="media-body">
                                         <div>{{ item.name }}</div>
                                         <div class="small">{{ item.dept }}</div>
                                         <div class="small d-flex">
-                                            <div>{{ item.position }}</div>
+                                            <div class="font-weight-bold">{{ item.position }}</div>
                                             <div class="mt-auto ml-auto no-break"><em>{{ item.date }}</em></div>
                                         </div>
+                                        <!-- 显示科研详细内容 -->
+                                        {% if item.details %}
+                                        <ul class="text-muted mt-1 pl-3 mb-0" style="font-size: 0.85rem;">
+                                            {% for detail in item.details %}
+                                            <li>{{ detail }}</li>
+                                            {% endfor %}
+                                        </ul>
+                                        {% endif %}
                                     </div>
                                 </li>
                                 {% endfor %}
                             </ul>
                         </div>
                         {% endif %}
+
+                        <!-- 模块 2：实践经历 -->
+                        {% if site.data.profile.practice_experience %}
+                        <div class="mx-2 my-1">
+                            <h6>Practice & Professional Experience</h6>
+                            <ul class="list-unstyled mb-1">
+                                {% for item in site.data.profile.practice_experience %}
+                                <li class="media mb-3">
+                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">
+                                    <div class="media-body">
+                                        <div>{{ item.name }}</div>
+                                        <div class="small">{{ item.dept }}</div>
+                                        <div class="small d-flex">
+                                            <div class="font-weight-bold">{{ item.position }}</div>
+                                            <div class="mt-auto ml-auto no-break"><em>{{ item.date }}</em></div>
+                                        </div>
+                                        <!-- 显示实践详细内容 -->
+                                        {% if item.details %}
+                                        <ul class="text-muted mt-1 pl-3 mb-0" style="font-size: 0.85rem;">
+                                            {% for detail in item.details %}
+                                            <li>{{ detail }}</li>
+                                            {% endfor %}
+                                        </ul>
+                                        {% endif %}
+                                    </div>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+                        
                     </div>
 
                 </div>
