@@ -3,24 +3,14 @@ secondary_name: "Xiying Li"
 navbar_name: "Homepage"
 
 positions:
-- logo: /assets/images/badges/sichuan normal university.png  # Logo is optional
-  name: M.S. in Psychology
-# - name: Position 2 without logo
-
+  - logo: /assets/images/badges/sichuan normal university.png
+    name: M.S. in Psychology
 
 email: "lxy3051084907@163.com"
-#cv_link: /assets/CV/cv.pdf  #IDK
-#gscholar: XbCCGC4AAAAJ  # This is an example, replace it with your own Google Scholar ID
 github: Shining-Leeee
-#twitter: Jasperli0122  # Do not include the '@' symbol
 wechat_qrcode: /assets/images/etc/wechat.jpg
 wechat_prompt: >-
   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past).
-#linkedin: zongrong-jasper-li-61457b287
-#linkedin: zongrong-jasper-li-61457b287
-#orcid: 0009-0008-0933-6439
-#xiaohongshu: https://www.xiaohongshu.com/user/profile/638b75f2000000001f01aed6
-
 
 short_bio_text_justify: true
 short_bio: >-
@@ -34,14 +24,13 @@ short_bio: >-
 
   <p>
     I am currently a <strong>M.S. student</strong> in Institute of Brain and psychological Sciences,
-    <a href="https://ibps.sicnu.edu.cn/" target="_blank"> Sichuan Normal University,</a>, 
+    <a href="https://ibps.sicnu.edu.cn/" target="_blank">Sichuan Normal University</a>, 
     advised by Prof. <a href="https://ibps.sicnu.edu.cn/p/16/?StId=st_app_news_i_x638514610151893184" target="_blank">Yifeng Wang</a>,
     with an expected graduation date of 2027.
     
     I previously earned my Bachelor of Science degree in psychology from the School of Education at 
-    <a href="https://jyxy.hnfnu.edu.cn/" target="_blank">Hunan First Normal University California</a>, 
-    advised by Prof. <a href="https://jyxy.hnfnu.edu.cn/info/1184/10934.htm" target="_blank">Yuesheng Huang</a> 
-   
+    <a href="https://jyxy.hnfnu.edu.cn/" target="_blank">Hunan First Normal University</a>, 
+    advised by Prof. <a href="https://jyxy.hnfnu.edu.cn/info/1184/10934.htm" target="_blank">Yuesheng Huang</a>.
   </p>
 
   <p>
@@ -56,38 +45,36 @@ short_bio: >-
    life with resilience.
   </p>
 
-
   <p>
   <i class="fa-solid fa-graduation-cap" style="color: #d60000;"></i>
   <span style="color: #d60000;">I am actively seeking Ph.D. opportunities.</span> 
   Driven by my passion for psychology, I hope to continue advancing my academic journey and am currently planning to pursue a doctoral degree in the field.
   </p>
 
-
-
 portrait_url: /assets/images/photos/profile.jpg
 portrait_caption: >-
   Keep knocking on the world's door!
 
 education:
-- name: Hunan First Normal University
-  logo: /assets/images/badges/hunan-first-normal-university.png
-  position: Bachelor of Science
-  date: September. 2020 - June.2024
-- name: Sichuan normal university
-  logo: /assets/images/badges/sichuan normal university.png
-  position: Master of Science in Educational Psychology
-  date: September. 2024 - Present
+  - name: Hunan First Normal University
+    logo: /assets/images/badges/hunan-first-normal-university.png
+    position: Bachelor of Science
+    date: September. 2020 - June.2024
+  - name: Sichuan normal university
+    logo: /assets/images/badges/sichuan normal university.png
+    position: Master of Science in Educational Psychology
+    date: September. 2024 - Present
 
 research_experience:
-- name: Supervisor's Research Group
-    date: September. 2024 
+  - name: Supervisor's Research Group
+    position: Research Assistant
+    date: September. 2024 - Present
     details:
       - Co-authored a grant proposal exploring the neural mechanisms of sustained attention fluctuations, contributing to literature reviews and research design.
       - Assisted in drafting, editing, and compiling materials for an academic book focused on attention and cognitive processes.
 
 practice_experience:
-- name: Yuelu District No.1 Primary School, Changsha
+  - name: Yuelu District No.1 Primary School, Changsha
     position: School Psychology Intern
     date: February. 2024 - June. 2024
     details:
@@ -96,18 +83,17 @@ practice_experience:
       - Designed and facilitated targeted group counseling sessions for 3rd to 5th-grade students experiencing interpersonal difficulties (identified through structured interviews with head teachers).
       - Organized and led the school's "5-25 Mental Health Day" campaigns.
 
-- name: ByteDance
+  - name: ByteDance
     position: Online Psychological Support Specialist (Project-Based)
     date: August. 2022 - November. 2022
     details:
       - Participated in an online psychological care initiative, operating as a human-in-the-loop AI persona to provide text-based emotional support, empathetic listening, and timely guidance to users experiencing distress.
 
-- name: Yuelu District Experimental Primary School & Xiya Middle School, Changsha
+  - name: Yuelu District Experimental Primary School & Xiya Middle School, Changsha
     position: Mental Health Education Trainee
     date: May. 2021 & May. 2022
     details:
       - Assisted school counselors in coordinating and executing "5-25 Mental Health Day" thematic activities to promote student well-being.
-
 
 awards:
   - name: Third-Class University Scholarship
