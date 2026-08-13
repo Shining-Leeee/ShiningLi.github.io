@@ -18,8 +18,8 @@ short_bio: >-
   I am a master's student in psychology, currently focusing my thesis on the regulatory effects of alpha entrainment neural oscillations on executive control.
   My thesis project comprises two main studies across three experiments, and I am currently in the data collection phase for Experiment 3.
     
-    <img src="assets/images/photos/interst.png" alt="Research Interests" 
-         style="float: left; width: 350px; margin-right: 10px; border-radius: 8px;">
+    <img src="assets/images/photos/thesis_framework.png" alt="Research Interests" 
+         style="float: left; width: 350px; margin-right: 15px; border-radius: 8px;">
   </p>
 
   <p>
@@ -59,7 +59,7 @@ education:
   - name: Hunan First Normal University
     logo: /assets/images/badges/hunan-first-normal-university.png
     position: Bachelor of Science
-    date: September. 2020 - June.2024
+    date: September. 2020 - June. 2024
   - name: Sichuan normal university
     logo: /assets/images/badges/sichuan normal university.png
     position: Master of Science in Educational Psychology
@@ -91,7 +91,7 @@ practice_experience:
 
   - name: Yuelu District Experimental Primary School & Xiya Middle School, Changsha
     position: Mental Health Education Trainee
-    date: May. 2021 & May. 2022
+    date: May. 2021 - May. 2022
     details:
       - Assisted school counselors in coordinating and executing "5-25 Mental Health Day" thematic activities to promote student well-being.
 
