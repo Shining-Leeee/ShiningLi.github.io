@@ -4,14 +4,14 @@ width: 4  #<--- 就是这里！改成 4 即可（这个学术页面的模板是1
 date: 2024-12-12 00:01:00 +0800 #Jekyll 博客系统（通常也是这类学术主页模板的底层框架）默认是按照时间倒序来排列这些展示区块的。最新的排在最前面，最旧的排在最后面。
 group: Not Just Research
 ---
-- 【需求1 & 3】外层卡片：h-100保证底端对齐；加入 transition 动画、鼠标悬停浮动阴影与手型；绑定点击弹窗 -->
+
 <div class="card border-0 shadow-sm h-100" 
      style="border-radius: 8px; overflow: hidden; cursor: pointer; transition: all 0.3s ease;"
      data-toggle="modal" data-target="#modal-dongwu"
      onmouseover="this.style.transform='translateY(-6px)'; this.classList.add('shadow');" 
      onmouseout="this.style.transform='translateY(0)'; this.classList.remove('shadow');">
     
-    <!-- 【需求2】缩略图：aspect-ratio: 3/14 宽3高4 保证正方形大占比显示，裁切居中 -->
+   
     <img data-src="{{ '/assets/images/etc/dongwu.jpg' | relative_url }}" 
          class="lazy w-100" 
          style="aspect-ratio: 3/4; object-fit: cover; border-top-left-radius: 8px; border-top-right-radius: 8px;" 
@@ -19,7 +19,7 @@ group: Not Just Research
     
     <!-- 卡片主体：d-flex flex-column 自动撑开底部对齐 -->
     <div class="card-body p-3 bg-light d-flex flex-column">
-        <!-- 【需求2】截断文字：严格限制 4 行，超出自动隐藏并显示原生省略号 -->
+     
         <p class="card-text mb-1" style="font-size: 0.9em; color: #444; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">
            I love animals, although I can be a little scared of them sometimes. This year, I spent my birthday with my puppies!
         </p>
@@ -30,8 +30,7 @@ group: Not Just Research
     </div>
 </div>
 
-<!-- 【需求3】弹窗 (Modal) 代码：优雅的全屏居中放大框 -->
-<!-- ⚠️ 重点：每张照片的 id 必须唯一！ -->
+
 <div class="modal fade" id="modal-dongwu" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content shadow-lg" style="border-radius: 12px; overflow: hidden; border: none;">
