@@ -1,17 +1,17 @@
 ---
 show: true
 width: 4
-date: 2024-12-12 00:01:00 +0800
+date: 2025-12-10 00:01:00 +0800
 group: Not Just Research
 ---
 <div class="card border-0 shadow-sm" style="border-radius: 8px; overflow: hidden;">
     <!-- 照片部分：将圆角改为了 rounded-top 以贴合卡片顶部 -->
-    <img data-src="{{ 'assets/images/etc/macau.jpg' | relative_url }}" class="lazy w-100" style="border-top-left-radius: 8px; border-top-right-radius: 8px;" src="{{ '/assets/images/etc/macau.jpg' | relative_url }}">
+    <img data-src="{{ 'assets/images/etc/macau.jpg' | relative_url }}" class="lazy w-100" My friend took this photo of me. src="{{ '/assets/images/etc/macau.jpg' | relative_url }}">
     
     <!-- 文字心情部分：带有内边距的卡片主体 -->
     <div class="card-body p-3 bg-light">
         <p class="card-text mb-0" style="font-size: 0.9em; color: #444;">
-            Macau, China – a city with an exceptionally great experience!
+            Macau, China – a city with an exceptionally great experience!The environment here is great, there's lots of delicious food, and the people are very welcoming!
         </p>
     </div>
 </div>
