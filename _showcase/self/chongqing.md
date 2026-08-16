@@ -4,14 +4,14 @@ width: 4
 date: 2025-04-09 00:01:00 +0800
 group: Not Just Research
 ---
-<!-- 【需求1 & 3】外层卡片：h-100保证底端对齐；加入 transition 动画、鼠标悬停浮动阴影与手型；绑定点击弹窗 -->
+
 <div class="card border-0 shadow-sm h-100" 
      style="border-radius: 8px; overflow: hidden; cursor: pointer; transition: all 0.3s ease;"
      data-toggle="modal" data-target="#modal-chongqing"
      onmouseover="this.style.transform='translateY(-6px)'; this.classList.add('shadow');" 
      onmouseout="this.style.transform='translateY(0)'; this.classList.remove('shadow');">
     
-    <!-- 【需求2】缩略图：aspect-ratio: 3/4 ，裁切居中 -->
+   
     <img data-src="{{ '/assets/images/etc/chongqing.jpg' | relative_url }}" 
          class="lazy w-100" 
          style="aspect-ratio: 3/4; object-fit: cover; border-top-left-radius: 8px; border-top-right-radius: 8px;" 
@@ -19,7 +19,7 @@ group: Not Just Research
     
     <!-- 卡片主体：d-flex flex-column 自动撑开底部对齐 -->
     <div class="card-body p-3 bg-light d-flex flex-column">
-        <!-- 【需求2】截断文字：严格限制 4 行，超出自动隐藏并显示原生省略号 -->
+      
         <p class="card-text mb-1" style="font-size: 0.9em; color: #444; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">
             This time I came to Chongqing, a city I especially love. Actually it was the second time visiting this city! If you write a very very long text here, it will automatically be truncated to exactly four lines, keeping all cards perfectly aligned.
         </p>
@@ -30,8 +30,7 @@ group: Not Just Research
     </div>
 </div>
 
-<!-- 【需求3】弹窗 (Modal) 代码：优雅的全屏居中放大框 -->
-<!-- ⚠️ 重点：每张照片的 id 必须唯一！例如这里的 modal-chongqing -->
+
 <div class="modal fade" id="modal-chongqing" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content shadow-lg" style="border-radius: 12px; overflow: hidden; border: none;">
