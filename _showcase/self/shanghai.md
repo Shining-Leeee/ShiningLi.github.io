@@ -1,6 +1,6 @@
 ---
 show: true
-width: 6
+width: 4
 date: 2024-12-12 00:01:00 +0800
 group: Not Just Research
 ---
@@ -11,8 +11,7 @@ group: Not Just Research
     <!-- 文字心情部分：带有内边距的卡片主体 -->
     <div class="card-body p-3 bg-light">
         <p class="card-text mb-0" style="font-size: 0.9em; color: #444;">
-            I was under a lot of pressure when I was facing thesis proposal defense, so I came to Shanghai Disneyland to relax and had a magical day! 
-            After returning to school, I threw myself into the thesis proposal defense again and achieved excellent results!
+            This time I came to Chongqing, a city I especially love.🎒✨
         </p>
     </div>
 </div>
