@@ -1,7 +1,7 @@
 ---
 show: true
 width: 4  #<--- 就是这里！改成 4 即可（这个学术页面的模板是12栅格系统，也就是将整个页面宽度分成了12份。这里是4 代表一行展示三张）
-date: 2024-12-12 00:01:00 +0800
+date: 2024-12-12 00:01:00 +0800 #Jekyll 博客系统（通常也是这类学术主页模板的底层框架）默认是按照时间倒序来排列这些展示区块的。最新的排在最前面，最旧的排在最后面。
 group: Not Just Research
 ---
 <div class="card border-0 shadow-sm" style="border-radius: 8px; overflow: hidden;">
