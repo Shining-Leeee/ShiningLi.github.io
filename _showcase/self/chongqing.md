@@ -11,10 +11,10 @@ group: Not Just Research
      onmouseover="this.style.transform='translateY(-6px)'; this.classList.add('shadow');" 
      onmouseout="this.style.transform='translateY(0)'; this.classList.remove('shadow');">
     
-    <!-- 【需求2】缩略图：aspect-ratio: 1/1 保证正方形大占比显示，裁切居中 -->
+    <!-- 【需求2】缩略图：aspect-ratio: 3/4 ，裁切居中 -->
     <img data-src="{{ '/assets/images/etc/chongqing.jpg' | relative_url }}" 
          class="lazy w-100" 
-         style="aspect-ratio: 1/1; object-fit: cover; border-top-left-radius: 8px; border-top-right-radius: 8px;" 
+         style="aspect-ratio: 3/4; object-fit: cover; border-top-left-radius: 8px; border-top-right-radius: 8px;" 
          src="{{ '/assets/images/etc/chongqing.jpg' | relative_url }}">
     
     <!-- 卡片主体：d-flex flex-column 自动撑开底部对齐 -->
