@@ -4,7 +4,6 @@ width: 4
 date: 2025-12-12 00:01:00 +0800
 group: Not Just Research
 ---
- 
 <div class="card border-0 shadow-sm h-100" 
      style="border-radius: 8px; overflow: hidden; cursor: pointer; transition: all 0.3s ease;"
      data-toggle="modal" data-target="#modal-shanghai"
@@ -21,8 +20,8 @@ group: Not Just Research
     <div class="card-body p-3 bg-light d-flex flex-column">
         <!-- 【需求2】截断文字：严格限制 4 行，超出自动隐藏并显示原生省略号 -->
         <p class="card-text mb-1" style="font-size: 0.9em; color: #444; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">
-        I was under a lot of pressure when I was facing thesis proposal defense, so I came to Shanghai Disneyland to relax and had a magical day! 
-        After returning to school, I threw myself into the thesis proposal defense again and achieved excellent results!
+           I was under a lot of pressure when I was facing thesis proposal defense, so I came to Shanghai Disneyland to relax and had a magical day! 
+           After returning to school, I threw myself into the thesis proposal defense again and achieved excellent results!
         </p>
         <!-- 引导点击的加粗提示 -->
         <div class="mt-auto text-right">
@@ -33,7 +32,7 @@ group: Not Just Research
 
 <!-- 【需求3】弹窗 (Modal) 代码：优雅的全屏居中放大框 -->
 <!-- ⚠️ 重点：每张照片的 id 必须唯一！ -->
-<div class="modal fade" id="modal-dongwu" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal fade" id="modal-shanghai" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content shadow-lg" style="border-radius: 12px; overflow: hidden; border: none;">
             
@@ -48,8 +47,8 @@ group: Not Just Research
             <!-- 弹窗内的全部未截断文字 -->
             <div class="modal-body p-4 bg-white">
                 <p style="font-size: 1rem; color: #333; line-height: 1.6; margin-bottom: 0;">
-                    I was under a lot of pressure when I was facing thesis proposal defense, so I came to Shanghai Disneyland to relax and had a magical day! 
-                    After returning to school, I threw myself into the thesis proposal defense again and achieved excellent results!
+                   I was under a lot of pressure when I was facing thesis proposal defense, so I came to Shanghai Disneyland to relax and had a magical day! 
+                   After returning to school, I threw myself into the thesis proposal defense again and achieved excellent results!
                 </p>
             </div>
             
@@ -57,3 +56,5 @@ group: Not Just Research
     </div>
 </div>
 
+
+ 
