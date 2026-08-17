@@ -34,3 +34,15 @@ navbar_title: Showcase
     {% endfor %}
 </div>
 {% endfor %}
+
+<!-- 修复 Modal 弹窗层级错乱的专属补丁 -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // 找到页面上所有的弹窗 (modal)
+    var modals = document.querySelectorAll('.modal');
+    // 把它们安全地移动到网页的最外层 (body 底部)，防止被卡片层级卡住
+    modals.forEach(function(modal) {
+        document.body.appendChild(modal);
+    });
+});
+</script>
