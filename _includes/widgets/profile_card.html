@@ -1,11 +1,74 @@
+<!-- === 1. 定义背景动画的 CSS 魔法 === -->
+<style>
+    /* 整个卡片外框变更为相对定位，且隐藏溢出部分，为动画背景做准备 */
+    .profile-card-container {
+        position: relative;
+        overflow: hidden;
+        border-radius: .25rem; /* 匹配 Bootstrap 默认圆角 */
+    }
+
+    /* 动画背景图层：放在最底层，全覆盖 */
+    .profile-cinematic-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+    }
+
+    .profile-cinematic-bg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* 核心动画：20秒匀速缩放并微微平移，无限来回循环 */
+        animation: cinematicZoom 20s ease-in-out infinite alternate;
+    }
+
+    /* 背景遮罩：由于文字是黑色的，我们需要一个白色的半透明遮罩来确保文字清晰可读 */
+    .profile-bg-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.85); /* 85%不透明度的纯白遮罩 */
+        z-index: 1;
+    }
+
+    @keyframes cinematicZoom {
+        0% { transform: scale(1) translate(0, 0); }
+        100% { transform: scale(1.15) translate(-2%, -2%); }
+    }
+
+    /* 原本的卡片内容：确保它浮在背景和遮罩之上 */
+    .profile-content {
+        position: relative;
+        z-index: 2;
+        /* 给内部留出边距，替代原来 card-body 的 p-5 */
+        padding: 3rem; 
+    }
+</style>
+
+<!-- === 2. 带有动画背景的卡片结构 === -->
 <div class="row">
     <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body p-5">
+        <!-- 去掉了原有的纯白背景类 bg-white，加入了自定义容器类 -->
+        <div class="card border-0 shadow-sm profile-card-container">
+            
+            <!-- 插入动画背景层 -->
+            <div class="profile-cinematic-bg">
+                <!-- ⚠️ 请务必把下面的图片名字换成你想放映的照片！ -->
+                <img src="{{ '/assets/images/photos/Head_pic.jpg' | relative_url }}" alt="Cinematic Background">
+            </div>
+            <!-- 插入确保文字可读的半透明白底遮罩 -->
+            <div class="profile-bg-overlay"></div>
+
+            <!-- 原有的卡片文字内容，套进浮在顶层的 profile-content 中 -->
+            <div class="profile-content">
                 <div class="row">
                     <div class="col">
                         {% if site.data.profile.portrait_url %}
-                        <!-- When the screen is wider than md, float the portrait on the right -->
                         <div class="figure float-right ml-4 mb-4 d-none d-md-block">
                             <img 
                                 src="{{ site.data.profile.portrait_url | relative_url }}" 
@@ -44,7 +107,6 @@
                             <a target="_blank" href="{{ site.data.profile.cv_link | relative_url }}"><i class="fas fa-file-alt"></i> Curriculum Vitae</a> <br/>
                         {% endif %}
                     </div>
-        
                 </div>
                 <hr />
                 <div class="row">
